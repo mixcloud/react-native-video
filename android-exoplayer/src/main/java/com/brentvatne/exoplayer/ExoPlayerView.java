@@ -200,7 +200,7 @@ public final class ExoPlayerView extends FrameLayout {
     }
 
     private final class ComponentListener implements SimpleExoPlayer.VideoListener,
-            TextRenderer.Output, ExoPlayer.EventListener {
+            TextOutput, ExoPlayer.EventListener {
 
         // TextRenderer.Output implementation
 
